@@ -58,5 +58,5 @@ async def update_todo(db: db_dependency, todo_id: int, todo_request: TodoRequest
 
     db.add(todo_model)
     db.commit()
-
+print("saliom")
 # @app.delete('todo/{todo_id}', status_code=status.HTTP_204_NO_CONTENT)
